@@ -1,0 +1,1414 @@
+https://github.com/muthu1809/Web-Designing-Materials
+<p>I am a paragraph, oh yes I am.</p>
+<h1>I am the title of the story.</h1>
+<h2>I am the title of the story.</h2>
+<h3>I am the title of the story.</h3>
+<h4>I am the title of the story.</h4>
+<h5>I am the title of the story.</h5>
+<h6>I am the title of the story.</h6>
+
+
+Unordered List: 
+ul - unordered list
+li - list item
+
+<ul>
+  <li>milk</li>
+  <li>eggs</li>
+  <li>bread</li>
+  <li>hummus</li>
+</ul>
+
+Ordered List:
+<ol>
+  <li>Have pen and paper</li>
+  <li>Note down everything</li>
+  <li>Go through them</li>
+  <li>Ask Questions</li>
+  <li>Clarify your doubts</li>
+</ol>
+
+
+<ol>
+  <li>Have pen and paper</li>
+  <li>Note down everything</li>
+  <li>Go through them</li>
+  <li>Ask Questions
+     <ul>
+      <li>Listen to the answers</li>
+      <li>Raise again your questions on the answers</li>
+    </ul>
+</li>
+  <li>Clarify your doubts</li>
+</ol>
+
+Emphasis: 
+
+<p>It is good to <em>practise</em> regularly and <em>write </em>them.</p>
+
+Underline:
+<p>HTML is <U>easy</U> to learn.</p>
+
+Combine strong, emphasis and underline: 
+<p>HTML is <U><strong><em>easy</strong></em></U> to learn.</p>
+
+Changing closing tag order will also work: [Not advisable]
+<p>HTML is <U><strong><em>easy</U></em></strong> to learn.</p>
+
+Description List: 
+<dl>
+  <dt>ILUGC</dt>
+  <dd>ILUGC was started on 1997 and it is an one of the oldest Linux Users Group in India. We are a heterogeneous group of computer users from the South Indian city of Chennai (aka Madras), united in our use of Free/Libre/Open Source Softwares and support of Software Freedom in general and the GNU/Linux in particular. Most of our monthly meetings see a technical talk, not necessarily on GNU/Linux but also on FSF/GNU/OSS/BSD related topics such as Perl, Python, PHP, FreeBSD, TCP, IP, etc,.</dd>
+  <dt>Kaniyam</dt>
+  <dd><i lang="ta">அறிவியல் மற்றும் சமூகப் பொருளாதார வளர்ச்சிக்கு ஒப்ப, தமிழ் மொழியின் பயன்பாடு வளர்வதை உறுதிப்படுத்துவதும், அனைத்து அறிவுத் தொகுதிகளும், வளங்களும் கட்டற்ற அணுக்கத்தில் அனைவருக்கும் கிடைக்கச்செய்தலும்.</i></dd>
+  <dt>FSFTN</dt>
+  <dd>IFree Software Foundation Tamil Nadu (FSFTN) is a not-for-profit organisation and a social
+movement which aims at enlightening the masses in Free Software, Free Hardware, Openness, Free Culture
+and Knowledge Freedom. We have Regional and College level GLUGs and
+conduct Annual Camps, Workshops, etc on FOSS Technologies and Tools to empower people and contribute Knowledge back to the Commons</dd>
+</dl>
+
+
+Description List - Example 2: 
+
+<dl>
+  <dt><strong>ILUGC</strong></dt>
+  <dd>ILUGC was started on 1997 and it is an one of the oldest Linux Users Group in India. We are a heterogeneous group of computer users from the South Indian city of Chennai (aka Madras), united in our use of Free/Libre/Open Source Softwares and support of Software Freedom in general and the GNU/Linux in particular. Most of our monthly meetings see a technical talk, not necessarily on GNU/Linux but also on FSF/GNU/OSS/BSD related topics such as Perl, Python, PHP, FreeBSD, TCP, IP, etc,.</dd>
+  <dt><strong><em>Kaniyam</em></strong></dt>
+  <dd><i lang="ta">அறிவியல் மற்றும் சமூகப் பொருளாதார வளர்ச்சிக்கு ஒப்ப, தமிழ் மொழியின் பயன்பாடு வளர்வதை உறுதிப்படுத்துவதும், அனைத்து அறிவுத் தொகுதிகளும், வளங்களும் கட்டற்ற அணுக்கத்தில் அனைவருக்கும் கிடைக்கச்செய்தலும்.</i></dd>
+  <dt>FSFTN</dt>
+  <dd>IFree Software Foundation Tamil Nadu (FSFTN) is a not-for-profit organisation and a social
+movement which aims at enlightening the masses in Free Software, Free Hardware, Openness, Free Culture
+and Knowledge Freedom. We have Regional and College level GLUGs and
+conduct Annual Camps, Workshops, etc on FOSS Technologies and Tools to empower people and contribute Knowledge back to the Commons</dd>
+</dl>
+
+Abbreviations: 
+<p>We use <abbr title="Hypertext Markup Language">HTML</abbr> to structure our web documents.</p>
+
+<p>I think <abbr title="Doctor">Dr.</abbr> B.M.Hegde talks are eye opening one.</p>
+
+
+Superscript and subscript: 
+
+<p>Periyar's birthday is on the 17<sup>th</sup> of September.</p>
+<p>Water's formula is H<sub>2</sub>O</sub>.</p>
+<p>If x<sup>2</sup> is 16, x must equal 4 or -4.</p>
+
+
+Marking up times and dates:
+
+<time datetime="2022-06-20">20 June 2022</time>
+
+<time datetime="2022-06-20">20 June 2022</time>
+
+<!-- Standard simple date -->
+<time datetime="2022-01-20">20 June 2022</time>
+<!-- Just year and month -->
+<time datetime="2022-01">June 2022</time>
+<!-- Just month and day -->
+<time datetime="01-20">20 June</time>
+<!-- Just time, hours and minutes -->
+<time datetime="19:30">19:30</time>
+<!-- You can do seconds and milliseconds too! -->
+<time datetime="19:30:01.856">19:30:01.856</time>
+<!-- Date and time -->
+<time datetime="2022-01-20T19:30">7.30pm, 20 June 2022</time>
+<!-- Date and time with timezone offset -->
+<time datetime="2022-01-20T19:30+01:00">7.30pm, 20 June 2022 is 8.30pm in India</time>
+<!-- Calling out a specific week number -->
+<time datetime="2022-W04">The fourth week of 2022</time>
+
+
+HyperLinks: 
+
+<p>I'm creating a link to
+<a href="http://www.kaniyam.com/">Kaniyam Home page</a>.
+</p>
+
+<p>I'm creating a link to
+<a href="http://www.kaniyam.com/"
+   title="The best place to learn Open Source content in Tamil">Kaniyam</a>.
+</p>
+
+Block Level Links: 
+For Adding Links to Images
+
+<a href="https://www.linux.org/">
+  <img src="linux.jpeg" alt="Linux logo that links to the Linux homepage">
+</a>
+
+Creating HyperLinks:
+
+Moving down into subdirectories
+
+Moving back up into parent directories
+
+home.html: 
+----------
+ 
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home Page</title>
+  </head>
+  <body>
+    <h1>This is Sample homepage</h1>
+
+    <p>Visit my <a href="templates/home.html">Home Page</a>.</p>
+
+    <p>Want to contact a specific staff member? Find details on our <a href="contacts.html">contacts page</a>.</p>
+
+    <p>Want to Reach Us? Use our <a href="contactus.html#Mailing_address">address</a>.</p>
+  </body>
+</html>
+
+contactus.html
+-----------------
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My contacts page</title>
+  </head>
+
+  <body>
+    <h1>This is my Contact Us page</h1>
+
+    <p>The <a href="#Mailing_address">company mailing address</a> Please find at the bottom of this page.</p>
+
+    <p>Address</p>
+
+    <h2 id="Mailing_address"></h2>
+
+    <address>7 Vijaya Nagar<br>
+    Velachery<br>
+    Chennai<br>
+    Tamil Nadu, 600042</address>
+  </body>
+</html>
+
+----------------------
+Open Link in New Tab: 
+
+<a href="https://www.mozilla.org" target="_blank">
+</a>
+
+
+Download attribute when linking to a download: 
+
+<a href="https://download.mozilla.org/?product=firefox-latest-ssl&os=linux64&lang=en-US"    download="firefox-latest-64bit-installer">
+  Download Latest Firefox for Linux (64-bit) (English, US)
+</a>
+
+
+EMail Link: 
+mailto: link indicates the email address of the intended recipient
+
+<a href="mailto:noone@langscape.com">Send email to No One</a>
+
+<a href="mailto:noone@langscape.com?cc=yarum_illai@kaniyam.com&bcc=nowhere@payilagam.com&subject=The%20subject%20of%20the%20email&body=The%20body%20of%20the%20email">
+  Send mail with cc, bcc, subject and body
+</a>
+
+
+HTML Validator: 
+https://validator.w3.org/
+We can give any website here. Used to check whether the html is validated properly. Tester uses these tools to check that tags are implemented properly. Used to fix the issue, secuity issue fixing ...
+
+
+
+
+
+Favourite Icon: We have to give favicon in head(bcoz it is a container)
+<link rel="icon" type="image/x-icon" href="linux.jpeg"> <!-- Here .ico file we have to give --> 
+
+
+https://favicon.io/	-> free online favourite icon generator
+
+https://www.favicon-generator.org/
+
+
+
+<p> Hi, I'm from <mark>Chennai </mark></p>- mark tag used to highlight the content. Eg: "quotes"
+
+
+<img src="linux.jpeg"
+     alt="Tux the Penguin"> - alt it used to give alternate msg if there is no image.
+
+
+<img src="linux.jpeg"
+     alt="Tux The Penguin"
+     width="400"	->these are pixels
+     height="341">
+
+
+<img src="linux.jpeg"
+     alt=""
+     width="400"
+     height="341"
+     title="Tux is a penguin character and the official brand character of the Linux kernel.">
+	 <!-- if we use title, if we hover the image it will show the above msg--> 
+
+<figure> -> is a container element, used to denote this content belongs to this figure.
+  <img src="linux.jpeg"
+       alt="Tux is a penguin character and the official brand character of the Linux kernel."
+       width="400"
+       height="341">
+
+  <figcaption>Linux Logo - Tux</figcaption>
+</figure>
+
+Video and audio on the web: 
+<video src="rabbit.webm" controls>
+  <p>Your browser doesn't support HTML5 video. Here is a <a href="rabbit.webm">link to the video</a> instead.</p>
+</video>
+
+
+<video controls>
+  <source src="rabbit.mp4" type="video/mp4">
+  <source src="rabbit.webm" type="video/webm">
+  <p>Your browser doesn't support HTML5 video. Here is a <a href="rabbit.mp4">link to the video</a> instead.</p>
+</video>
+
+<video controls width="400" height="400"
+       autoplay loop muted preload="auto" 
+       poster="rabbit.jpeg">  <!-- try preload="none" --> 
+  <source src="rabbit.mp4" type="video/mp4">
+  <source src="rabbit.webm" type="video/webm">
+  <p>Your browser doesn't support HTML video. Here is a <a href="rabbit320.mp4">link to the video</a> instead.</p>
+</video>
+
+<audio controls>
+  <source src="viper.mp3" type="audio/mp3">
+  <source src="viper.ogg" type="audio/ogg">
+  <p>Your browser doesn't support HTML5 audio. Here is a <a href="viper.mp3">link to the audio</a> instead.</p>
+</audio>
+
+Embedding Technologies: <iframe> is available from html5(taking videos from important website is illegal, we can have social network videos).
+<iframe> Embedding an entire web document inside another one
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31100.014332286864!2d80.22096644999999!3d13.003685749999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc0605297cdd52a98!2z4K6q4K6v4K6_4K6y4K6V4K6u4K-N!5e0!3m2!1sta!2sin!4v1654616701684!5m2!1sta!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/g4VubmbY5So" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Courtesy: Chris David Mills 
+
+<!DOCTYPE html>		<!-- Below is the example for embedding content where we can make that this content cannot be embedded-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Iframe with basic details</title>
+  </head>
+  <body>
+    <h1>Iframe with basic details</h1>	<!-- sandbox is used for seurity purpose, without hacking we can use the website-->
+
+    <iframe src="https://developer.mozilla.org/en-US/docs/Glossary" width="100%" height="500" frameborder="0" allowfullscreen sandbox>
+      <p> <a href="https://developer.mozilla.org/en-US/docs/Glossary"> Fallback link for browsers that don't support iframes </a> </p>
+    </iframe>
+  </body>
+</html>
+
+Browser Developer Tools: 
+Shortcut: Ctrl+Shift+I or F12
+
+https://en.wikipedia.org/wiki/Sandbox_(computer_security)
+
+https://ta.wikipedia.org/wiki/%E0%AE%AA%E0%AE%AF%E0%AE%A9%E0%AE%B0%E0%AF%8D:Info-farmer/%E0%AE%AE%E0%AE%A3%E0%AE%B2%E0%AF%8D%E0%AE%A4%E0%AF%8A%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%BF 
+
+Clickjacking: developing an website similar to pnr and getting input from user and giving those input in pnr status site and fetching the result.
+
+Clickjacking is an interface-based attack that tricks website users into unwittingly clicking on malicious links. In clickjacking, the attackers embed their malicious links into buttons or legitimate pages in a website. In an infected Site, whenever a user clicks on a legitimate link, the attacker gets the confidential information of that user, which ultimately compromises the user's privacy on the Internet.
+
+Courtesy: https://developer.mozilla.org/en-US/docs/Glossary/Clickjacking
+
+HTTPS: 
+https://letsencrypt.org/	- A nonprofit certificate authority providing TLS certificates to websites.
+
+
+Vector Graphics: 
+
+Images should not pixelate when we zoom them.  
+
+Two Types of Images: 
+1. Raster Images
+2. Vector Images
+
+Raster Images: 
+Raster images are defined using a grid of pixels. 
+Eg. .bmp, .png, .jpg, .gif
+
+Vector Images: 
+SVG[Scalable Vector Graphics] Format Images (.svg). 
+It is an XML-based language for describing vector images
+
+
+https://mdn.github.io/learning-area/html/multimedia-and-embedding/adding-vector-graphics-to-the-web/vector-versus-raster.html 
+
+<!DOCTYPE html>			<!-- Raster Vs Vector image-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Vector versus raster</title>
+  </head>
+  <body>
+    <h1>Vector versus raster</h1>
+
+    <img src="star.png" alt="A raster star">
+    <img src="star.svg" alt="A vector star">
+  </body>
+</html>
+
+<!-- svg tag is used for vector image-->
+<svg width="300" height="200">
+    <rect width="100%" height="100%" fill="green" />
+</svg>
+
+
+Responsive Images: 
+Ctrl ++ used to see the mobile version / zoom out
+
+Container element:
+span Tag: 
+div tag: 
+
+
+Table Creation: <!-- th(table header) td(table data)
+
+<table border=5> ->border is used to view the table in table format. we can change the border size if we want
+<td>first cell.</td>
+</table>
+
+
+<table> 
+<td>first cell</td>
+<td>second cell</td>
+<td>third cell</td>
+<td>fourth cell</td>
+</table>
+
+<table> 
+<tr>
+<td>first cell</td>
+<td>second cell</td>
+<td>third cell</td>
+<td>fourth cell</td>
+</tr>
+</table>
+
+
+<table> 
+<tr>
+<th>first heading</th>
+<th>second heading</th>
+<th>third heading</th>
+<th>fourth heading</th>
+</tr>
+<td>first cell</td>
+<td>second cell</td>
+<td>third cell</td>
+<td>fourth cell</td>
+</tr>
+</table>
+
+
+<table>
+  <caption>Monthly Electricity Bill</caption>	<!-- used to give caption for this table-->
+  <tr>
+    <th>Month</th>
+    <th>Units</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>100</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>50</td>
+  </tr>
+</table>
+
+
+<table>
+  <colgroup>
+    <col span="2" style="background-color:blue">	->inline CSS
+    <col style="background-color:red">
+  </colgroup>
+  <tr>
+    <th>Publisher</th>
+    <th>Title</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td>Kaniyam</td>
+    <td>CSS in Tamil</td>
+    <td><a href="http://www.kaniyam.com/download/learn-css-in-tamil.pdf/"> Learn CSS in tamil</a></td>
+  </tr>
+  <tr>
+    <td>Kaniyam</td>
+    <td>JavaScript in Tamil</td>
+    <td><a href="https://freetamilebooks.com/download/%e0%ae%8e%e0%ae%b3%e0%ae%bf%e0%ae%af-%e0%ae%a4%e0%ae%ae%e0%ae%bf%e0%ae%b4%e0%ae%bf%e0%ae%b2%e0%af%8d-javascript-a4-pdf/"> எளிய தமிழில் ஜாவாஸ்கிரிப்ட்</a></td>
+  </tr>
+</table>
+
+Space:
+&nbsp - single space
+ensp - 2 space
+emsp - 4 space
+<br> - is for line break
+
+Nested Table:
+
+<table id="table1" border=1>
+  <tr>
+    <th>title1</th>
+    <th>title2</th>
+    <th>title3</th>
+  </tr>
+  <tr>
+    <td id="nested">
+      <table id="table2" border=1>
+        <tr>
+          <td>cell1</td>
+          <td>cell2</td>
+          <td>cell3</td>
+        </tr>
+      </table>
+    </td>
+    <td>cell2</td>
+    <td>cell3</td>
+  </tr>
+  <tr>
+    <td>cell4</td>
+    <td>cell5</td>
+    <td>cell6</td>
+  </tr>
+</table>
+
+Check Boxes: 
+<h1>Check the Course you wish</h1>
+<label class="container">Java
+  <input type="checkbox" checked="checked"> <!-- checked="checked" - if we want some content to be checked by default-->
+  
+</label>
+<label class="container">Python
+  <input type="checkbox" id="P" >
+
+</label>
+<label class="container">Angular
+  <input type="checkbox" id="A" >
+
+</label>
+<label  class="container">
+	React
+<input type="checkbox" >
+
+</label>
+
+
+Radio Buttons: 
+<input type="radio" id="html" name="fav_language" value="HTML"> HTML
+<label for="html"><h2>HTML</h2></label>
+<input type="radio" id="css" name="fav_language" value="CSS">
+<label for="css"><h2>CSS</h2></label>
+<input type="radio" id="javascript" name="fav_language" value="JavaScript">
+<label for="javascript"><h2>JavaScript</h2></label> 
+
+
+Input Box - Password: 
+
+  <input type="text" id="fname" name="fname" value="Kathir"><br>
+  <label for="lname"><h3>Password:</h3></label><br>
+  <input type="password" id="lname" name="lname" value="Kumaran"><br><br>
+	
+
+
+Drop Down / Select Box:
+
+	<label for="courses"><h2>Choose Course</h2></label>
+
+	<!--<select id="courses" name="courses">-->
+	<!--<select id="courses" name="courses" size="3">-->
+<select id="courses" name="courses" size="4" multiple> <!-- remove size and multiple for dropdown-->
+  <option value="java"  >Java </option>
+  <option value="python" selected>Python</option>
+  <option value="ruby">Ruby</option>
+  <option value=".net">.NET</option>
+</select> 
+
+
+
+CSS:Cascading style sheet
+
+To add styles to HTML.  
+Styling --> Adding Colors, Fonts, Size, Borders, etc. 
+
+CSS is not a programming language. It's not a markup language either.
+
+CSS is a Style Sheet Language. CSS is a rule-based language.   
+
+How To Define Style for HTML Elements:
+1. In line
+<h1 style="color:red"> Welcome <h1> 
+
+2. By Using Style Tag: 
+<html>
+<head>
+<style type="text/css">
+h1{                 <!-- wherever the h1 tag is available this style applies to h1-->    
+    color: blue;    
+  }
+</style>
+</head>
+<h1> Welcome</h1> 
+இது பரிந்துரைக்கப்படுவதில்லை.  ஏனென்றால் ஒவ்வொரு html கோப்புக்கும் இதைத் திரும்பச் செய்ய வேண்டி வரும்.  
+
+3. Separate CSS(File): 
+
+style1.css
+----------
+h1{color:red;}
+
+index.html:
+-----------
+<html>
+<head>
+<link rel="stylesheet" href="styles/style1.css">
+</head>
+<h1> Welcome </h1> 
+
+Basic Structure of CSS File:
+============================
+tagname{
+    property:value;
+   }
+eg: 
+h1{color:red;}
+
+CSS Fileஐ HTML கோப்புடன் link tag மூலம் இணைக்கலாம்.  
+
+how to add comments in CSS: 
+/* Comments */
+
+h1 {
+    color: red;
+    font-size: 5em;
+}
+
+p {
+    color: light green;
+}
+
+Multiple Property Values: 
+style1.css
+----------
+p {
+  color: red;
+  width: 500px;
+  border: 1px solid black;
+}
+
+Selecting Multiple Elements: 
+
+style1.css
+-----------
+p,h1 {
+  color: red;
+  width: 500px;
+  border: 1px solid black;
+}
+
+index.html:
+----------
+<html>
+<head>
+<link rel="stylesheet" href="styles/style1.css">
+</head>
+<body>
+<h1> வணக்கம் தமிழகம் </h1> 
+<p> வணக்கம் தமிழகம் </p> 
+</body>
+</html>
+
+CSS Selectors: 
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  text-align: center;
+  color: red;
+} 
+</style>
+</head>
+<body>
+
+<p>எல்லாப் பத்திக்கும்(paragraph) </p>
+<p id="para1">இந்த style</p>    <!-- id can be alphanumeric, should not be number only.-->
+<p>பொருந்தும்</p>
+
+</body>
+</html>
+
+1. ID Selector: 
+index.html: 
+-----------
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#para1 {
+  text-align: center;
+  color: blue;
+}
+</style>
+</head>
+<body>
+<p id="para1">நான் மாறியிருக்கிறேனா?</p>
+<p>நான் மாறவில்லையா?</p>
+​</body>
+</html>
+குறிப்பு: id எண்ணில் தொடங்கக் கூடாது.  
+
+2. Class Selector:
+------------------
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.abcd {
+  text-align: center;
+  color: red;
+}
+</style>
+</head>
+<body>
+
+<h1 class="abcd">காற்றுக்கென்ன வேலி</h1>
+<p class="bcde">கடலுக்கென்ன மூடி</p> 
+</body>
+</html>
+
+குறிப்பு: styleஇல் class பெயருக்கு முன்னால் புள்ளி(.) வைக்க வேண்டும்.  
+
+2.1 More than One Class: 
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p.center {
+  text-align: center;
+  color: red;
+}
+
+p.large {
+  font-size: 300%;
+}
+</style>
+</head>
+<body>
+<h1 class="center">நான் மாறவே இல்லையே</h1>
+<p class="center">நான் நடுவில் வந்திருக்கிறேன்</p>
+<p class="center large">எல்லாம் மாறியிருக்கிறதா?</p> 
+</body>
+</html>
+
+3. Universal Selector: 
+-------------------------
+Universal Selector: * 
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>         <!-- this style applies to all tag -->
+* {
+  text-align: center;
+  color: red;
+}
+</style>
+</head>
+<body>
+<h1>வணக்கம்</h1>
+<p>சிவப்பு</p>
+<p id="para1">சிவப்புத் தான்</p>
+<p>இங்கேயும் சிவப்புத் தான்</p>
+</body>
+</html>
+
+4. CSS Attribute Selector: 
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+a[target] {
+  background-color: yellow;
+}
+</style>
+</head>
+<body>
+<h2>CSS [attribute] Selector</h2>
+<p>பின்னணி மஞ்சளாக எங்கெல்லாம் மாறுகிறது, பாருங்கள். </p>
+<a href="https://www.kaniyam.com">Kaniyam</a>
+<a href="http://www.ilugc.in" target="_blank">ILUGC</a>
+<a href="http://www.wikipedia.org" target="_blank">Wikipedia</a>
+</body>
+</html>
+
+4.1. CSS Attribute Selector
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+[title~=linux] {
+  border: 5px solid red;
+}
+</style>
+</head>
+<body>
+
+<h2>[attribute~="value"] ஸ்டைல் டேக்கைப் பாருங்கள்</h2>
+<p>attribute (இங்கே title)ஐப் பொருத்து ஸ்டைல் மாறுகிறதா</p>
+
+<img src="rabbit.jpeg" title="animal" width="150" height="113">
+<img src="linux.jpeg" title="linux" width="224" height="162"> 
+<img src="linux.jpeg" title="logo of linux" width="150" height="113">
+
+</body>
+</html>
+
+
+4.2. CSS Attribute Selector
+| கொடுத்திருக்கும் classஐ அப்படியே தேடும், இல்லை, - உடன் தேடும்.  
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+[class|=top] {
+  background: yellow;
+}
+</style>
+</head>
+<body>
+
+<h2>CSS [attribute|="value"] Selector</h2>
+
+<h1 class="top-header">கனவா கனவா</h1>
+<p class="top-text">நான் காண்பது கனவா</p>
+<p class="topcontent">என் கண் முன்னே கடவுள் துகளா</p>
+
+</body>
+</html>
+
+
+4.2. CSS Attribute Selector
+| கொடுத்திருக்கும் classஐ அப்படியே தேடும், இல்லை, - உடன் தேடும்.  
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+[class|=top] {
+  background: yellow;
+}
+</style>
+</head>
+<body>
+
+<h2>CSS [attribute|="value"] Selector</h2>
+
+<h1 class="top-header">கனவா கனவா</h1>
+<p class="top-text">நான் காண்பது கனவா</p>
+<p class="topcontent">என் கண் முன்னே கடவுள் துகளா</p>
+
+</body>
+</html>
+
+
+4.3. CSS [attribute^="value"] Selector
+-----------
+class^ ---> starts with specified value
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+[class^="abc"] {
+  background: pink;
+}
+</style>
+</head>
+<body>
+
+<h1>CSS [attribute^="abcd"] Selector</h1>
+
+<p class="abcd">ரெண்டு ஒன்னு பாக்கலாம் நிக்குறியா தெம்பா </p>
+<h1 class="bcde-123">எப்பவும் லைஃப் திரும்பலாம் </h1>
+<p class="abcdefgh">நம்புறியா நண்பா</p>
+
+</body>
+</html>
+
+4.4. CSS [attribute$="value"] Selector
+--------------------------------------
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+[class$="xyz"] {
+  background: pink;
+}
+</style>
+</head>
+<body>
+
+<h2>CSS [attribute$="value"] Selector</h2>
+
+<div class="abc_xyz">ரிஸ்க் எடுக்கறதெல்லாம் ரஸ்க் சாப்பிடறது மாதிரி</div>
+<div class="abc">வேணா வலிக்குது அழுதுறுவேன்.</div>
+<div class="stuvwxyz">நான் அப்டியே ஷாக் ஆயிட்டேன்</div>
+<p class="abc-xyz">எந்த ஒரு விசயத்தையும் பிளான் பண்ணாம பண்ணா இப்படித்தான்!  பிளான் பண்ணி பண்ணனும்</p>
+
+</body>
+</html>
+
+4.5. CSS [attribute*="value"] Selector
+---------------------------------
+
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+[class*="xy"] {
+  background: pink;
+}
+</style>
+</head>
+<body>
+
+<h2>CSS [attribute*="value"] Selector</h2>
+
+<div class="abc_xyz_1">ரிஸ்க் எடுக்கறதெல்லாம் ரஸ்க் சாப்பிடறது மாதிரி</div>
+<div class="xyabz">வேணா வலிக்குது அழுதுறுவேன்.</div>
+<div class="stuvwxyz_">நான் அப்டியே ஷாக் ஆயிட்டேன்</div>
+<p class="aby-xz">எந்த ஒரு விசயத்தையும் பிளான் பண்ணாம பண்ணா இப்படித்தான்!  பிளான் பண்ணி பண்ணனும்</p>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+[class*="xy"] {
+  background: pink;
+}
+</style>
+</head>
+<body>
+
+<h2>CSS [attribute$="value"] Selector</h2>
+
+<div class="abc_xyz_1">ரிஸ்க் எடுக்கறதெல்லாம் ரஸ்க் சாப்பிடறது மாதிரி</div>
+<div class="xyabz">வேணா வலிக்குது அழுதுறுவேன்.</div>
+<div class="stuvwxyz_">நான் அப்டியே ஷாக் ஆயிட்டேன்</div>
+<p class="aby-xz">எந்த ஒரு விசயத்தையும் பிளான் பண்ணாம பண்ணா இப்படித்தான்!  பிளான் பண்ணி பண்ணனும்</p>
+
+</body>
+</html>
+
+CSS Combinators: 
+----------------
+5.1 Descendant Selector
+-----------------------
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div p {
+  background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+<h2>Descendant Selector</h2>
+<div>
+  <p>நான் p, div இரண்டிற்குள்ளும் இருக்கிறேன்.  எனவே எனக்கு style பொருந்தும்.  </p>
+  <p>நானும் p, div இரண்டிற்குள்ளும் இருக்கிறேன்.  எனவே எனக்கு style பொருந்தும். </p>
+  <section><p>நானும் தான் p, div இரண்டிற்குள்ளும் இருக்கிறேன்.  எனவே எனக்கு style பொருந்தும்.</p></section>
+</div>
+
+<p>நான் pஇல் மட்டும் தான்  இருக்கிறேன்.  எனவே எனக்கு style பொருந்தாது. </p>
+<p>நான் pஇல் மட்டும் தான்  இருக்கிறேன்.  எனவே எனக்கு style பொருந்தாது.</p>
+
+</body>
+</html>
+
+5.2. Child Selector (>) 
+----------------------
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div > p {   <!-- Paragraph should be immediate after division(>)
+  background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+<h2>Descendant Selector</h2>
+<div>
+  <p>நான் p, div இரண்டிற்குள்ளும் இருக்கிறேன்.  எனவே எனக்கு style பொருந்தும்.  </p>
+  <p>நானும் p, div இரண்டிற்குள்ளும் இருக்கிறேன்.  எனவே எனக்கு style பொருந்தும். </p>
+  <section><p>நானும் தான் p, div இரண்டிற்குள்ளும் இருக்கிறேன். ஆனால், sectionகுள் இருக்கிறேன்.   style பொருந்தாது.</p></section>
+</div>
+
+<p>நான் pஇல் மட்டும் தான்  இருக்கிறேன்.  எனவே எனக்கு style பொருந்தாது. </p>
+<p>நான் pஇல் மட்டும் தான்  இருக்கிறேன்.  எனவே எனக்கு style பொருந்தாது.</p>
+
+</body>
+</html>
+
+5.3. nth of type selectors:
+--------------------------
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+/* Selects the second element of div siblings */
+div:nth-of-type(2) {
+  background: red;
+  color: yellow;
+}
+
+/* Selects the second li element in a list */
+li:nth-of-type(2) {
+  background: lightgreen;
+  color: red;
+}
+
+/* Selects every third element among any group of siblings */
+:nth-of-type(3) {
+  background: yellow;
+}
+</style>
+</head>
+<body>
+
+<div>
+<p>நம்பிக்கையே நல்லது</p>
+</div>
+
+<div>
+<p>எறும்புக்கும் வாழ்க்கை உள்ளது</p>
+</div>
+
+<div>
+<p>பெருந்தலைகள்</p>
+</div>
+
+<ul>
+  <li>ரிச்சர்டு ஸ்டால்மேன்</li>
+  <li>முத்து அண்ணாமலை</li>
+  <li>லினஸ் டார்வால்ட்ஸ்</li>
+  <li>டென்னிஸ் ரிட்சி</li>
+  <li>ஜிம்மி வேல்ஸ்</li>
+</ul>
+
+</body>
+</html>
+
+
+
+
+
+Text: 
+color   --> "#ff0000", "rgb(0,255,0)", "red"
+text-align  --> Left, Right, center, Justify
+text-decoration --> linkஇல் அடிக்கோட்டை எடுக்க
+text-transform  --> uppercase, lowercase, Capitalize
+text-indent     --> இடைவெளி அமைக்க உதவும். 
+index.html
+----------
+<html> 
+<head> 
+<link rel="stylesheet" href="styles/style1.css"> 
+</head> 
+<body> 
+<p class="first"> Dont Giveup! Keep on Trying! </p>
+<p class="second">Even though it seems to be impossible, It will happen in your life one day. </p>
+<p class="third"> All the very best Friends! Wait to receive the surprises in your life!!!!!!</p>
+</body> 
+</html> 
+
+style1.css
+-----------
+p.first 
+{color:green; text-decoration:overline; text-transform:uppercase; text-indent:50px;}
+p.second 
+{color:#0000ff; text-align:right; text-decoration:line-through; text-transform:lowercase;}
+p.third
+{color:rgb(255,0,0); text-align:center; text-decoration:underline; text-decoration:capitalize;}
+
+-------------
+Font: 
+font-family - எழுத்துகளின் வகை, பல எழுத்து வகையைக் குறிப்பிடலாம்.  முதல் மதிப்பு இல்லையெனில் இரண்டாவது வகையிலும், இரண்டாவதும் இல்லையெனில் 3-வது வகையிலும் எழுத்துக்களை வெளிப்படுத்தும்.
+font-style :    Normal, Italic, Bold, Oblique
+
+font-size: px, em
+
+index.html: 
+----------
+<html> 
+<head> 
+<link rel="stylesheet" href="styles/style1.css"> 
+</head> 
+<body> 
+<p class="first"> விடாமுயற்சி தொடர்பயிற்சி </p>
+<p class="second"> எங்கே விழுந்தாய் என்று பார்க்காதே!  எங்கே வழுக்கியது என்று பார்!  </p>
+<p class="third"> தொடக்கத்தில் எல்லாமே கடினம் தான்!  தொடர்ந்து செய்தால் எதுவும் எளிமை தான்!</p>
+</body> 
+</html> 
+
+
+style1.css
+-----------
+
+p.first {font-family:"Tiems New Roman", Times, serif; font-style:Oblique; font-size:10;}
+p.second {font-style:italic; font-size:20;}
+p.third {font-style:bold; font-size:30;}
+
+--------------
+Link: 
+ஒரு linkஐ அழகுபடுத்த color, font-family, font size கொடுக்கலாம்.  
+
+a:link =
+a:hover = 
+a:active = சொடுக்கும் போது எப்படித் தெரிய வேண்டும்.  
+a:visited = சொடுக்கிய பிறகு எப்படித் தெரிய வேண்டும்.  
+
+index.html
+------------
+<html>
+<head> 
+<link rel="stylesheet" href="styles/style1.css"> 
+</head> 
+<body> 
+<a href="https://freetamilebooks.com/ebooks/eliya_tamilil_software_testing/" target="_blank"> Click here for Software Testing book </a>
+</body> 
+</html> 
+
+style1.css
+-----------
+a:hover {color:red;background-color:yellow;}
+a:active {color:white;background-color:black;}
+a:visited {color:pink;background-color:white;}
+
+
+-----------
+List: 
+Ordered List என்றால் 1,2,3
+Unordered List என்றால் புள்ளிகள் 
+
+CSS மூலம் அவற்றை மாற்றலாம்.  
+index.html
+----------
+<html>
+<head> 
+<link rel="stylesheet" href="styles/style1.css"> 
+</head> 
+<body> 
+Types of Testing
+<ol>
+<li>Functional Testing</li>
+<li>Non-functional Testing</li>
+</ol>
+
+Types of non-functional testing
+<ul>
+<li>Performance Testing</li>
+<li>Automation Testing</li>
+</ul>
+
+</body> 
+</html> 
+
+style.css
+---------
+ol li {list-style-type:upper-roman;}
+ol li {list-style-type:circle;}
+
+
+Visibility  Property: 
+தெரிய வேண்டுமா இல்லையா? எனச் சொல்லும்.  
+Display: 
+inline என இருந்தால், அடுத்தடுத்த வரியில் இல்லாமல் தொடர்ச்சியாக வெளிப்படும்.  
+style.css:
+----------
+ol li {visibility: hidden;}
+ol li {display: inline;}
+
+TABLES: 
+-------
+<html>
+<head> 
+<link rel="stylesheet" href="styles/style1.css"> 
+</head> 
+<body> <table>
+
+<tr>
+<th>Name</th>
+<th>Marks</th>
+<th>Rank</th>
+</tr>
+
+<tr>
+<td>கதிர்</td>
+<td>450</td>
+<td>தேர்ச்சி</td>
+</tr>
+
+<tr>
+<td>வெண்பா</td>
+<td>445</td>
+<td>தேர்ச்சி</td>
+</tr>
+
+</table></body> 
+</html> 
+
+style1.css
+----------
+
+table {width:"60%"; height: "40%"; border: 3px solid red;}
+th {border: 2px solid green;}
+td {border: 1px solid orange;}
+
+இதே CSS கோப்பில்: 
+table {width:60%; width:40%; border: 3px solid red; border-collapse: collapse;} 
+
+
+Divisions: 
+
+<html>
+<head> 
+<html>
+<head> 
+<link rel="stylesheet" href="styles/style1.css"> 
+</head> 
+<body> <div>பத்தாவது முறை விழுந்தவனை முத்தமிட்டுச் சொன்னது பூமி - ஒன்பது முறை எழுந்தவன் அல்லவா நீ!  - ஈரோடு தமிழன்பன் </div>
+</body> 
+</html> 
+
+style1.css
+----------
+div {width:60%; height: 40%; border: 3px solid red; }
+
+இதே style.css கோப்பில் margin சேர்த்து வேறுபாட்டைக் கவனிக்கவும். 
+
+div {width:60%; height: 40%; border: 3px solid red; margin:25px; } 
+
+padding: உள்ளே இருக்கும் contentக்கும் இடைவெளி கொடுக்கும்.  
+style1.css
+
+div {width:60%; height: 40%; border: 3px solid red; margin:25px;padding: 25px; }
+
+Body background: 
+index.html: 
+<html>
+<head> 
+<html>
+<head> 
+<link rel="stylesheet" href="styles/style1.css"> 
+</head> 
+<body> <div>பத்தாவது முறை விழுந்தவனை முத்தமிட்டுச் சொன்னது பூமி - ஒன்பது முறை எழுந்தவன் அல்லவா நீ!  - ஈரோடு தமிழன்பன் </div>
+</body> 
+</html> 
+
+style1.css:
+body {background-color: skyblue;}
+
+படத்தைச் சேர்ப்பது எப்படி?
+body {background-image: url("../linux.jpeg");} -> .. is used to denote that need to come out of the current folder.
+
+body {
+background-image: url("../linux.jpeg");
+background-repeat: repeat-x;
+}
+
+body {
+background-image: url("../linux.jpeg");
+background-repeat: no-repeat;
+}
+
+body {
+background-image: url("../linux.jpeg");
+background-repeat: no-repeat;
+background-position: right top;
+}
+
+POSITIONING: 
+index.html: 
+----------
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles/style1.css"> 
+</style>
+</head>
+<body>
+
+<h2>position: static;</h2>
+<body> <div class="static">பத்தாவது முறை விழுந்தவனை முத்தமிட்டுச் சொன்னது பூமி - ஒன்பது முறை எழுந்தவன் அல்லவா நீ!  - ஈரோடு தமிழன்பன் </div>
+</body> 
+</html> 
+
+style1.css:
+div.static {
+  position: static;
+  border: 3px solid #73AD21;
+}
+
+style1.css:
+ div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73AD21;
+}
+
+div.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+}
+
+sticky
+check in internet
+
+CSS Box model:
+1. Content edge
+2. Padding Edge
+3. Border edge
+4. Margin
+
+For eg:
+<table>
+<tr>
+<td id = "blue"> Blue </td>
+</table>
+
+CSS:
+
+#blue
+{
+height: 200px;
+width: 100px;
+border: 5 px solid green;
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+span {
+  color: red;
+  border: 1px solid black;
+}
+
+.extra span {
+  color: inherit;
+}
+</style>
+</head>
+<body>
+
+<div>
+  Here is <span>a span element</span> which is red, as it is span element
+</div>
+
+<div class="extra" style="color:blue">
+  Here is <span>a span element</span> which is blue, because it inherits from its parent.
+</div>
+
+<div style="color:red">
+  Here is <span>a span element</span> which is red, as it is span element
+</div>
+
+</body>
+</html>
+
+----------
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  color: red;
+  border: 1px solid blue; 
+}
+
+h1 {
+  color: initial; 
+}
+</style>
+</head>
+<body>
+
+<div>
+  <h1 align="center">தலைப்பு</h1>
+  <p>தலைப்பின் நிறம் என்ன?  இந்தப் பத்தியின் நிறம் என்ன?  ஏன் இரண்டும் வெவ்வேறு?  initial property தான் காரணம்.  புரிகிறதா?.</p>
+</div>
+</body>
+</html>
+
+------------
+revert property: 
+.பெற்றோர் {
+  color: blue;
+}
+p {
+  color: red;
+}
+.மாற்று {
+  color: revert;
+}
+
+<html>
+<head>
+<link rel="stylesheet" href="styles/style1.css">
+</head>
+<body>
+<div class="பெற்றோர்">
+  <p>கண்ணைக் கசக்கும் சூரியனோ ரெட்.</p>
+  <p class="மாற்று">ஊதா ஊதா ஊதாப்பூ</p>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
