@@ -1898,7 +1898,7 @@ style1.css:
 /* hover பண்பைச் சேருங்கள் */
 .button:hover {
   background-color: blue;
-  color: white;
+  color: yellow;
 }
 
 
@@ -1966,7 +1966,7 @@ column-rule-color: red;
 }
 
 h1 {
-  column-span: all;
+  column-span: all; <!-- instead all give none(column-span: none;)
 }
 
 Columns and Fragmentation: 
