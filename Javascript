@@ -1,0 +1,32 @@
+Javascript: Java and javascript is entirely different
+Javascript is named as ECMAScript earlier
+It is a scripting language.
+Scripting language has interpreter(line by line translation) only
+All major web browsers have a dedicated javascript engine to execute the code on users devices.
+Javascript OOP language--> yes
+only OOP language --> no.
+Javascript has 5 datatype.
+Usage of javascript-> action
+<script> tag->we can give in head as well as body. Giving in head tag is advisable.
+
+ctrl+shift+j ->javascipt tool
+
+Basic program:
+
+index.html
+----------
+<html>
+  <head>
+    <script type="text/css" src="demo.js"></script>
+  </head>
+  <body>
+    
+  </body>
+</html>
+
+demo.js:
+-------
+var name=prompt("Enter your name")
+var age=prompt("Enter your age")
+agedays = age * 365.25
+alert('Hi ' + name + ' You have been in this world for ' + agedays+ ' Enjoy Happy Days ')
