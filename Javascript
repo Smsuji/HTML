@@ -1,3 +1,5 @@
+developer.mozilla.org->to learn javascript well(one of the best site). 
+
 Javascript: Java and javascript is entirely different
 Javascript is named as ECMAScript earlier
 It is a scripting language.
@@ -8,8 +10,34 @@ only OOP language --> no.
 Javascript has 5 datatype.
 Usage of javascript-> action
 <script> tag->we can give in head as well as body. Giving in head tag is advisable.
+To denote string- use " " or ' '.
+var- means variable.(also called as identifier or reference variable)
+It is not necessary to explicitly define var.
+There is no semicolon in javascript syntax
 
-ctrl+shift+j ->javascipt tool
+5 primitive(or basic) datatypes in javascript:
+1)Number (operations like + - * / % **)
+2)String (sequence of characters)
+3)boolean (yes or no)
+
+
+var name = 'suji'
+var age = 25
+var indian = true
+
+typeof name-->string
+typeof age-->number
+typeof indian-->boolean
+
+
+Methods: Set of instructions for performing a specific task.
+prompt()
+alert()
+console.log()
+
+
+
+ctrl+shift+j ->browser console will open
 
 Basic program:
 
