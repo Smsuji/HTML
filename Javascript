@@ -108,6 +108,7 @@ console.log(name[i])
 i++
 }
 --------------------------------------
+100 divided by which nos
 
 number = 100
 divisor =2 
@@ -120,6 +121,128 @@ while(divisor <= number)
      divisor++;
 }
 -------------------------------------------
+
+Divisible by 2
+
+number = prompt("Enter the number")
+divisor = 1 
+while(divisor <= number)
+{
+    if(divisor % 2 == 0)
+       {
+        console.log(divisor)
+       }
+    divisor++
+}
+
+------------------------------------------------
+
+Divisible by 3
+
+number = prompt("Enter the number")
+divisor = 1 
+while(divisor <= number)
+{
+    if(divisor % 3 == 0)
+       {
+        console.log(divisor)
+       }
+    divisor++
+}
+------------------------------------------------------
+
+Divisible by 2 and 3
+
+number = prompt("Enter the number")
+divisor = 1 
+while(divisor <= number)
+{
+    if(divisor % 2 == 0 & divisor % 3 == 0)
+       {
+        console.log(divisor)
+       }
+    divisor++
+}
+
+----------------------------------------------------------
+
+Divisible by 2 or 3
+
+number = prompt("Enter the number")
+divisor = 1 
+while(divisor <= number)
+{
+    if(divisor % 2 == 0 | divisor % 3 == 0)
+       {
+        console.log(divisor)
+       }
+    divisor++
+}
+
+-----------------------------------------------------------
+
+Prime no
+
+number = prompt("Enter the number")
+i = 2
+count = 0
+while(number >= i)
+{
+    if(number % i == 0)
+        count++;
+        i++;
+}
+
+    if(count==1)
+        console.log(number + " is prime")
+    else
+        console.log(number + " is not prime")  
+
+-----------------------------------------------------------------
+
+Javascript looping:
+-------------------
+
+This is the example program for Getting input from the user during the runtime
+
+var name = prompt("who is your favourite actor")
+while(name!=="vijay")
+{
+name=prompt("Who is your favourite actor")
+}
+alert("Ok, you are actor vijay fan")
+
+-------------------------------------------------------------------------
+
+Nested if:
+---------
+
+var name = prompt("1. Belongs to TamilNadu")
+if(name=="Abdul kalam")
+{
+alert("Congrats! You are right")
+}
+    else
+    {
+
+    alert("Sorry, Incorrect guess")
+    name = prompt("2.He is no more")
+    if(name == "Abdul kalam")
+    {
+        alert("Congrats! you are right")
+    }
+    else
+    {
+        alert("Sorry, Incorrect guess")
+        name = prompt("3.Different hairstyle")        
+
+-------------------------------------------------------------------------------
+
+
+
+
+
+
 
 
 
