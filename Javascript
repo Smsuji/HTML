@@ -38,8 +38,8 @@ alert()
 console.log()
 
 
-
-ctrl+shift+j ->browser console will open-available in developer tool
+ctrl+shift+i ->browser console
+ctrl+shift+j ->available in developer tool
 
 Basic program:
 
@@ -64,16 +64,25 @@ alert('Hi ' + name + ' You have been in this world for ' + agedays+ ' Enjoy Happ
 Javascript has 3 statements:
 
 >Normal statement -> var name = 'suji'
+
 >Conditional statement -> boolean true / false
-For example:
-var number = prompt("enter any no")
-if(no%2 == 0)
+For example demo.js:
+-------------------
+var age = prompt("enter your age")
+if(age >= 60)
  {
-    console.log("Even no")
+    console.log("First priority")
+     alert("First")
  }
+else if(age >= 40)
+{
+   console.log("Second priority")
+    alert("Second")
+}
 else
 {
-   console.log("Odd no")
+    console.log("Third priority")
+    alert("Third")
 }
 
 >Control flow
