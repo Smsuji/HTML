@@ -238,19 +238,69 @@ alert("Congrats! You are right")
 
 -------------------------------------------------------------------------------
 
+for loop:
+--------
+
+for(var no=1;no<=10;no++)
+{
+    console.log(no)
+}
+
+------------------------------------------------------------------------------
+
+To learn looping:
+
+1)Prime no
+2)Factorial
+3)Fibonacci series
+
+----------------------------------------------------------------------------
+
+Functions:
+
+Code reusability
+Set of instructions to perform a specific task.
+
+function wish(name)
+{
+console.log(name + "All the best")
+}
+name=prompt("Tell me your name")
+wish(name) //Function Calling Statement
+
+or 
+
+function multiply(no1,no2)
+{
+return no1 * no2
+}
+
+var result = multiply(10,20)
+console.log(result)
+
+or
+
+function calculate(tamil_mark, eng_mark) //Argument passing
+{
+return tamil_mark + eng_mark
+}
+
+var tamil = Number(prompt("Enter Tamil Mark"))
+var english = Number(prompt("Enter English Mark"))
+
+var result = calculate(tamil, english)
+console.log("Your total is" + result)
+
+----------------------------------------------------------------------------
 
 
-
-
-
-
-
-
-
-
-
-
-
+var salary = 25000
+function buy_veg()
+{
+amount = 200
+console.log("buying vegetable")
+}
+console.log(amount)
 
 
 
