@@ -16,6 +16,7 @@ It is not necessary to explicitly define var.
 There is no semicolon in javascript syntax
 =  -> assignment 
 ==  -> comparator
+// for comment
 
 5 primitive(or basic) datatypes in javascript:
 1)Number (operations like + - * / % **)
@@ -85,9 +86,40 @@ else
     alert("Third")
 }
 
->Control flow
+>Control flow / Iterative statements (To reduce the length of the code)
 
+while loop:
+-----------
 
+var count = 1
+ while(count <= 6)
+ {
+     console.log("Hello")
+     count++
+ }
+----------------------------
+
+var name = prompt("Enter your name")
+console.log(name.length)
+i=0
+while(i<name.length)
+{
+console.log(name[i])
+i++
+}
+--------------------------------------
+
+number = 100
+divisor =2 
+while(divisor <= number)
+{
+    if(number % divisor == 0)
+       {
+        console.log(divisor)
+       }
+     divisor++;
+}
+-------------------------------------------
 
 
 
