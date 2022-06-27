@@ -14,6 +14,8 @@ To denote string- use " " or ' '.
 var- means variable.(also called as identifier or reference variable)
 It is not necessary to explicitly define var.
 There is no semicolon in javascript syntax
+=  -> assignment 
+==  -> comparator
 
 5 primitive(or basic) datatypes in javascript:
 1)Number (operations like + - * / % **)
@@ -37,7 +39,7 @@ console.log()
 
 
 
-ctrl+shift+j ->browser console will open
+ctrl+shift+j ->browser console will open-available in developer tool
 
 Basic program:
 
@@ -45,7 +47,7 @@ index.html
 ----------
 <html>
   <head>
-    <script type="text/css" src="demo.js"></script>
+    <script type="text/javascript" src="demo.js"></script>
   </head>
   <body>
     
@@ -58,3 +60,56 @@ var name=prompt("Enter your name")
 var age=prompt("Enter your age")
 agedays = age * 365.25
 alert('Hi ' + name + ' You have been in this world for ' + agedays+ ' Enjoy Happy Days ')
+
+Javascript has 3 statements:
+
+>Normal statement -> var name = 'suji'
+>Conditional statement -> boolean true / false
+For example:
+var number = prompt("enter any no")
+if(no%2 == 0)
+ {
+    console.log("Even no")
+ }
+else
+{
+   console.log("Odd no")
+}
+
+>Control flow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
