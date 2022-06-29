@@ -17,6 +17,8 @@ There is no semicolon in javascript syntax
 =  -> assignment 
 ==  -> comparator
 // for comment
+Pascal case - Student
+camel case - student
 
 5 primitive(or basic) datatypes in javascript:
 1)Number (operations like + - * / % **)
@@ -352,7 +354,7 @@ inputஐ எப்படி எடுப்பது?
 <input id="username"> </input> 
 பயனர் கொடுக்கும் உள்ளீட்டை(input) எடுப்பதற்கு value பயன்படும். 
 
-document.getElementById("name").value
+document.getElementById("name").value   -> If we write in english, In my document,get the content of the element, which has id as "name"
 
 
 Move Data into InnerHTML: 
@@ -383,7 +385,7 @@ color: yellow;
 <body>
 <h2> Select By ID எடுத்துக்காட்டு</h2>
 <input id="fromCity" placeHolder="Enter City Name"> <br>
-<button> Submit </button>
+<button onclick="getCityName()"> Submit </button>
 <p id="toCity"> </p>
 </body>
 </html>
@@ -615,11 +617,155 @@ for(i=0;i<cityNamesInput.length;i++)
 
 தேவைப்பட்டால்: 
 cityNamesOutput[i].style.backgroundColor = "yellow";
+-------------------------------------------------------------------------------
+
+JavaScript Methods:
+------------------
+
+function create_html_tag()
+{
+    //Taking paragraph content here
+    content = document.getElementById("input_text").value
+    
+    //Creating <p> tag here
+    para_element = document.createElement("p")    //equals to <p>   </p>
+    
+    //Creating Text Node to get content
+    our_data = document.createTextNode(content)
+    
+    //Adding content to our paragraph
+    para_element.appendChild(our_data)
+    
+    //
+    mydiv = document.getElementById("div1")
+    mydiv.appendChild(para_element)
+}
+--------------------------------------------------------
+
+Creating HTML Tag using JavaScript
+
+<!DOCTYPE html>
+<html>
+	<head> 
+		<script type="text/javascript" src="demo.js"> </script>
+    <link ref="stylesheet" href="style/layout.css"> 
+</head>	 
+<body>
+<h2> Creating HTML tag using JavaScript</h2>
+<div id = "div1">
+
+</div>
+<input placeholder = "Enter your data here" id="input_text">
+  <br>
+    <button onclick = "create_html_tag()"> Submit  </button>
+</body>
+</html>
+
+demo.js
+-------
+
+function create_html_tag()
+{
+    //Taking paragraph content here
+    content = document.getElementById("input_text").value
+    
+    //Creating <p> tag here
+    para_element = document.createElement("p")    //equals to <p>   </p>
+    
+    //Creating Text Node to get content
+    our_data = document.createTextNode(content)
+    
+    //Adding content to our paragraph
+    para_element.appendChild(our_data)
+    mydiv = document.getElementById("div1")
+    mydiv.appendChild(para_element)
+}
+
+------------------------------------------------------------------------------------------------
+
+Simple Calculator using JavaScript:
+------------------------------------
+
+<!DOCTYPE html>
+<html>
+	<head> 
+    <title>Simple Calculator </title>
+    
+		<script type="text/javascript" src="demo.js"> </script>
+    <link rel="stylesheet" href="style/layout.css"> 
+</head>	 
+<body>
+<h2> Simple Calculator using JavaScript</h2>
+<div class = "calc_form">
+  <form name="form1">
+    <input id = "calc" type ="text" name="results">
+      <br> <br>
+    <input type ="button" value="1" onclick="form1.results.value = form1.results.value+ '1'">
+    <input type ="button" value="2" onclick="form1.results.value = form1.results.value+ '2'">
+    <input type ="button" value="3" onclick="form1.results.value = form1.results.value+ '3'">
+    <input type ="button" value="+" onclick="form1.results.value = form1.results.value+ '+' ">
+      
+       <br> <br>
+    <input type ="button" value="4" onclick="form1.results.value = form1.results.value+ '4'">
+    <input type ="button" value="5" onclick="form1.results.value = form1.results.value+ '5'">
+    <input type ="button" value="6" onclick="form1.results.value = form1.results.value+ '6'">
+    <input type ="button" value="-" onclick="form1.results.value = form1.results.value+ '-'"> 
+      
+       <br> <br>
+    <input type ="button" value="7" onclick="form1.results.value = form1.results.value+ '7'">
+    <input type ="button" value="8" onclick="form1.results.value = form1.results.value+ '8'">
+    <input type ="button" value="9" onclick="form1.results.value = form1.results.value+ '9'">
+    <input type ="button" value="*" onclick="form1.results.value = form1.results.value+ '*'"> 
+      
+       <br> <br>
+    <input type ="button" value="0" onclick="form1.results.value = form1.results.value+ '0'">
+    <input type ="button" value="/" onclick="form1.results.value = form1.results.value+ '/'">
+    <input type ="button" value="." onclick="form1.results.value = form1.results.value+ '.'">
+    <input type ="button" value="=" onclick="form1.results.value = eval(form1.results.value)">  
+      <br><br>
+      
+    <input type ="button" id="clear" value="Clear All" onclick="form1.results.value = ' '"> 
+  </form>
+  </div>
+</body>
+</html>
 
 
 
+layout.css:
+----------
 
-
+h2
+      {
+	    text-align:center;
+	    background-color: blue;
+	    color:white;
+}
+      input
+      {
+      background-color: grey;
+      color:white;
+      border:1px solid brown;
+      padding: 25px;
+      }
+      
+ #calc
+      {
+      width:200px;
+      background-color: grey;
+      color:white;
+      border:1px solid brown;
+      padding: 25px;
+      }
+      
+ #clear
+      {
+       width:250px;
+      background-color: grey;
+      color:white;
+      border:1px solid brown;
+      padding: 25px;
+      }
 
 
 
